@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pierwszy projekt</string>
+    <string name="question">Choose color, which are not in the polish flag</string>
+</resources>

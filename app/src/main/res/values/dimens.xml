@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rozmiar_czcionki">24sp</dimen>
+    <dimen name="buttonMargin">5dp</dimen>
+    <dimen name="marginesDuzy">32dp</dimen>
+    <dimen name="margines_duzy" />
+</resources>

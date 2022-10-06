@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/moj_morski"
+    >
+
+        <TextView
+        android:id="@+id/pytanieeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:textSize="@dimen/rozmiar_czcionki"
+        android:textColor="@color/moj_zolty"
+        android:gravity="center"
+        android:padding="@dimen/margines_duzy"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="dobraOdpowiedz"
+            />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="zlaOdpowiedz"
+            />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/moj_zolty"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="dobraOdpowiedz"
+            />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/kolor3"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="dobraOdpowiedz"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/moj_zielony"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="dobraOdpowiedz"
+            />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/moj_czerwony"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="zlaOdpowiedz"
+            />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/buttonMargin"
+            android:onClick="dobraOdpowiedz"
+            />
+    </LinearLayout>
+
+</LinearLayout>

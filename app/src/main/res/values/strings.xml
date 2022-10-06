@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pierwszy projekt</string>
+    <string name="question">Wybierz kolory ktore nie są we fladze polski</string>
+    <string name="zla_odp" translatable="false">Ten przycisk musi pozostac</string>
+</resources>
